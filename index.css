@@ -1,0 +1,75 @@
+body {
+	padding-top: 80px !important;
+	padding-bottom:50px !important;
+	background-color: rgb(150,150,150);
+}
+#descriptions > h1 {
+	color: rgb(230,230,230);
+}
+#info {
+	width: 100%;
+	margin: 0 0 0 0;
+	background-color: rgb(180,180,180);
+	border-radius: 5px;
+	border: solid rgb(130,130,130) 1px;
+	padding: 50px 50px 50px 50px;
+}
+#descriptions {
+	color: white;
+	font-size: 20px;
+}
+#image {
+	text-align: center;
+}
+#imgProfile {
+	width: 100%;
+	max-width: 250px;
+	min-width: 176px;
+    height: auto;
+    border-radius: 10px;
+    border: solid rgb(210,210,210) 3px;
+}
+#project {
+	margin-top: 10px;
+	padding-top: 60px !important;
+	background-color: rgb(230,230,230);
+	border: solid rgb(130,130,130) 1px;
+	border-radius: 5px;
+	color: rgb(130, 130, 130);
+	text-align: center;
+}
+.col-sm-8 h1 {
+	text-align: center;
+}
+.projectImg {
+	max-width: 90%;
+}
+.application {
+	text-align: center;
+}
+.row {
+	margin-bottom: 10px;
+}
+h3 > a {
+	font-style: italic;
+	font-size: 20px;
+}
+
+#contact {
+	margin-top: 10px;
+	background-color: rgb(180,180,180);
+	border-radius: 5px;
+	border: solid rgb(130,130,130) 1px;
+	padding: 50px 50px 50px 50px;
+	color :rgb(240, 240, 240);
+}
+textarea {
+	margin-bottom: 5px;
+}
+.textContact {
+	color: white;
+	font-size: 20px;
+}
+#history {
+	color: rgb(240,240,240);
+}

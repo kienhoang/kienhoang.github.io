@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My Profile</title>
+	<script src="jquery-1.12.4.min.js"></script>
+	<script src="bootstrap-3.3.6/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="bootstrap-3.3.6/css/bootstrap.min.css">
+	<script src="index.js" ></script>
+	<link rel="stylesheet" type="text/css" href="index.css">
+</head>
+<body data-spy="scroll" data-target=".navbar" data-offset="50" id="infomation">
+	<nav class="navbar navbar-default navbar-fixed-top">
+		<div class="container-fluid">
+			<div class="narbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="/">Profile of Hoang Kien</a>
+			</div>	
+			<div class="collapse navbar-collapse" id="myNavbar">
+				<ul class="nav navbar-nav">
+					<li class="active"><a href="#infomation">Infomation</a></li>
+					<li><a href="#project">My project</a></li>
+					<li><a href="#contact">Contact</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	<div class="container">
+		<div id="info">
+			<div class="row">
+				<div class="col-xs-12 col-sm-8" id="descriptions">
+					<h1>Infomation</h1>
+					<p>My name is Hoàng Văn Kiên. I am a student of Hanoi university of science and technology.</p>
+					<p>My aim is to become a web developer and learn the latest technology</p>
+					<hr style="height:5px;border:none;background-color:white;">
+					<p>Web developer - Machine learning Developer</p>
+				</div>
+				<div class="col-xs-12 col-sm-4" id="image">
+					<a href="fullprofile.jpg"><img id="imgProfile" src="profile.jpg"></a>
+				</div>
+			</div>
+			<div id="history">I studied Pascal at 8<sup>th</sup> grade, C/C++ and Qt Framework at 12<sup>th</sup> grade. I started learning Javascript and Nodejs at 2<sup>nd</sup> year university. And now, I am learning AI and Python webservice.
+			</div>
+		</div>
+		
+		<div id="project">
+			<div class="row">
+				<div class="col-xs-12 col-sm-8 col-sm-offset-2">
+					<h1>My Recent Project</h1>
+					<hr style="height:5px;border:none;background-color:rgb(150, 150, 150);">
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-sm-6 col-xs-12 application">
+					<img class="projectImg" src="img/snake.png">
+					<h3>Snake - <a target="_blank" href="https://github.com/kienhoang/Snake">Github</a></h3>
+				</div>
+				<div class="col-sm-6 col-xs-12 application">
+					<img class="projectImg" src="img/notepad.png">
+					<h3>Notepad - <a target="_blank" href="https://github.com/kienhoang/Notepad">Github</a></h3>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-sm-6 col-xs-12 application">
+					<img class="projectImg" src="img/TTT.PNG">
+					<h3>Tic-tac-toe - <a target="_blank" href="http://codepen.io/kienhg96/full/JXmWBa/">Codepen</a></h3>
+				</div>
+				<div class="col-sm-6 col-xs-12 application">
+					<img class="projectImg" src="img/Simon.PNG">
+					<h3>Simon game - <a target="_blank" href="http://codepen.io/kienhg96/full/EKdqbb/">Codepen</a></h3>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-sm-6 col-xs-12 application">
+					<img class="projectImg" src="img/markdown.PNG">
+					<h3>Markdown editor - <a target="_blank" href="http://codepen.io/kienhg96/full/JKjrEw/">Codepen</a></h3>
+				</div>
+				<div class="col-sm-6 col-xs-12 application">
+					<img class="projectImg" src="img/voting.png">
+					<h3>Voting app - <a target="_blank" href="https://votingapp-kienhg96.herokuapp.com/">Heroku</a> - <a href="https://github.com/kienhg96/VotingApp" target="_blank">Github</a></h3>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-sm-6 col-xs-12 application">
+					<img class="projectImg" src="img/pinterest.PNG">
+					<h3>Pinterest - <a target="_blank" href="https://pinterest-kienhg96.herokuapp.com/">Heroku</a> - <a href="https://github.com/kienhg96/pinterest" target="_blank">Github</a></h3>
+				</div>
+				<div class="col-sm-6 col-xs-12 application">
+					<img class="projectImg" src="img/api.PNG">
+					<h3>Some api tools - <a target="_blank" href="https://apiproject-kienhg96.herokuapp.com/">Heroku</a> - <a href="https://github.com/kienhg96/apiproject" target="_blank">Github</a></h3>
+				</div>
+			</div>
+		</div>
+		<div id="contact">
+			<div class="row">
+				<div class="col-xs-12 col-sm-8 col-sm-offset-2">
+					<h1>Contact</h1>
+					<hr style="height:5px;border:none;background-color:white;">
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-12 col-sm-6">
+					<label>Name</label>
+					<input class="form-control" id="name" type="text" placeholder="Your name...">
+					<label>Email</label>
+					<input class="form-control" id="email" type="text" placeholder="Your email...">
+					<label>Message</label>
+					<textarea id="message" class="form-control" rows="5" placeholder="Your message..."></textarea>
+					<button class="btn btn-primary" id="btnSubmit">Send</button>
+				</div>
+				<div class="col-xs-12 col-sm-6">
+					<p class="textContact">If you want to contact me, please fill the beside form, I promise to reply.</p>
+					<p class="textContact">Note: No spam, thank you</p>
+					<p class="textContact">Contact me via <a href="https://www.facebook.com/kienhg96">Facebook</a></p> 
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
